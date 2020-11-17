@@ -1,4 +1,4 @@
-//
+
 // Created by Lone Kriss on 2020/11/17.
 //
 #include <iostream>
@@ -8,7 +8,7 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 #include <stdlib.h>
-
+#include <memory.h>
 
 #define MAXBUF 1024
 using std::cout;
