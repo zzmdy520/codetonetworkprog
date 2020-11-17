@@ -13,6 +13,7 @@
 #include <arpa/inet.h>
 #include <stdlib.h>
 #include <sys/select.h>
+#include <memory.h>
 
 
 #define MAXBUF 1024
