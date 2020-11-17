@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lonekriss/Documents/sort/main.cpp
+iostream
+-
+vector
+-
+strategy.h
+/Users/lonekriss/Documents/sort/strategy.h
+memory
+-
+
+/Users/lonekriss/Documents/sort/strategy.h
+utility
+-
+vector
+-
+
