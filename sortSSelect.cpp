@@ -91,11 +91,12 @@ int main(int argc,char* argv[]){
                     if(fd_max<clnt_sock){
                         fd_max = clnt_sock;
                     }
-                    cout<<"client connect: "<<clnt_size<<endl;
+                    cout<<"client connect: "<<clnt_sock<<endl;
                 }
                 else{
+
                     str_len = recv(i,buf,MAXBUF,0);
-                    if(str_len == 0){
+                    if(str_len == 0||str_len == -1){
                         FD_CLR(i,&rset);
                         close(i);
                         cout<<"close client: "<<i<<endl;
